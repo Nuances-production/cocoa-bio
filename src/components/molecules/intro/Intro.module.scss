@@ -10,18 +10,39 @@
     @media screen and (min-width: $desktop) {
         justify-content: center;
         flex-direction: row;
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
     .descContainer {
         font-size: 35px;
         letter-spacing: 0.4px;
         line-height: 1.2;
+        @media screen and (min-width: $desktop) {
+            flex: 1;
+        }
     }
 
     .numbersContainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
-        // font-size: 70px;
+        @media screen and (min-width: $desktop) {
+            flex: 1;
+        }
+    }
+
+    .numberContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .number {
+        font-size: 45px;
+    }
+
+    .numberDesc {
+        font-size: 14px;
     }
 }

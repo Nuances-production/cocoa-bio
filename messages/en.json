@@ -13,5 +13,13 @@
         "nav4": "Partners",
         "nav5": "Gallery",
         "nav6": "Contact"
+    },
+
+    "Intro": {
+        "desc": "Additive manufacturing of metal bio-implants: new material solutions",
+        "stat1": "Collaborateurs",
+        "stat2": "Manipulations réalisées",
+        "stat3": "Lancement du projet",
+        "stat4": "Publications"
     }
 }

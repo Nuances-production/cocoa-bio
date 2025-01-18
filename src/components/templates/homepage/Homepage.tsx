@@ -3,8 +3,11 @@ import React from 'react'
 import styles from './Homepage.module.scss'
 import Image from 'next/image'
 import Resume from '@/components/molecules/resume/Resume'
+import ImgOnText from '@/components/molecules/imgOntext/ImgOnText'
+import { useTranslations } from 'next-intl'
 
 export default function Homepage() {
+    const t = useTranslations()
     return (
         <main className={styles.homepage}>
             <Intro />
@@ -17,6 +20,13 @@ export default function Homepage() {
                 className={styles.image}
             />
             <Resume />
+            <ImgOnText
+                info="CocoA-Bio"
+                title={t('Global.imgOnText1.title')}
+                desc={t('Global.imgOnText1.desc')}
+                src="/3.png"
+                alt=""
+            />
         </main>
     )
 }

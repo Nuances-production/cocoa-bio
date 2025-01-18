@@ -3,6 +3,10 @@
         "language": {
             "en": "EN",
             "fr": "FR"
+        },
+        "imgOnText1": {
+            "title": "Creation of a New Material",
+            "desc": "CoCoA-bio combines two innovative metallurgical concepts to provide a material solution for the intended application, positioning itself on an essential public health issue."
         }
     },
 

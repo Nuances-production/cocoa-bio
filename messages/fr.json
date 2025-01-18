@@ -3,6 +3,10 @@
         "language": {
             "en": "EN",
             "fr": "FR"
+        },
+        "imgOnText1": {
+            "title": "Création d’un Nouveau Matériau",
+            "desc": "CoCoA-bio combine deux concepts métallurgiques innovants pour fournir une solution matériau pour l’application envisagée, se positionnant sur un enjeu de santé publique essentiel."
         }
     },
 

@@ -7,7 +7,6 @@
 }
 .select {
     border: none;
-    font-family: 'fontRoman';
     text-transform: uppercase;
     font-size: 16px;
     appearance: none;
@@ -15,16 +14,5 @@
     -moz-appearance: none;
     cursor: pointer;
     background-color: transparent;
-    color: black;
-    @media screen and (min-width: $desktop) {
-        color: grey;
-    }
-}
-
-.black {
-    color: black;
-}
-
-.white {
     color: white;
 }

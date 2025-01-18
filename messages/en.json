@@ -1,0 +1,55 @@
+{
+    "Global": {
+        "language": {
+            "en": "EN",
+            "fr": "FR"
+        },
+        "imgOnText1": {
+            "title": "Creation of a New Material",
+            "desc": "CoCoA-bio combines two innovative metallurgical concepts to provide a material solution for the intended application, positioning itself on an essential public health issue."
+        }
+    },
+
+    "Header": {
+        "nav1": "Resume",
+        "nav2": "The Project",
+        "nav3": "Publications",
+        "nav4": "Partners",
+        "nav5": "Gallery",
+        "nav6": "Contact"
+    },
+
+    "Intro": {
+        "desc": "Additive manufacturing of metal bio-implants: new material solutions",
+        "stat1": "Collaborateurs",
+        "stat2": "Manipulations réalisées",
+        "stat3": "Lancement du projet",
+        "stat4": "Publications",
+        "text": "The combination of additive manufacturing and HEAs could create a long-term vision for bio-implants. These technologies allow the production of implants with improved performance and longevity. This could lead to the development of more wear-resistant implants that can last for decades, as well as significantly reduce the need for replacement surgeries, improving the quality of life of patients."
+    },
+
+    "Resume": {
+        "title": "Project resuuuuum",
+        "paraph1": "As the population of modern societies ages and the risk of bone disease or bone accidents increases, the need for a new generation of materials with superior biocompatibility and adequate mechanical properties is a challenge. CoCoA-bio combines two innovative metallurgical concepts to provide a material solution for the intended application, positioning itself on a key public health issue. Indeed, multi-component alloys (HEA/CCA) based on the TiNbZr-X system (X = Mo, Ta) will be produced by additive manufacturing, in particular by selective laser melting (SLM). After each development step by SLM and the optimization of the microstructures by hot isostatic compaction and controlled annealing (WP1), the microstructures of the resulting samples will be fully characterized (WP2) and their mechanical behavior analyzed under different loading conditions, including fatigue (WP3). A step of mechanical functionalization of the surfaces carried out by machining with metrological monitoring (WP4) will be carried out before a chemical functionalization to identify the suitability of the materials developed for the intended application (WP5). Two additional tasks, WP0 (coordination) and WP6",
+        "paraph2": "(regulation and socio-economic aspect) will also complete the structure of the proposal, which will last 48 months. In addition to the initial pre-alloyed powders, which will mainly be developed for us as part of an external service, the core of the project is composed of batches WP1, WP4 and WP5, based on the results of batches WP2, WP3 and WP6, which allow us to filter the solution envisaged. Indeed, the architecture of the project was designed to identify several candidate alloys for the desired application, then to converge towards the most promising solution(s), using tools adapted to each task. At the end of the project, a dental implant prototype, chosen as a model product to validate the experimental approach developed, will be proposed. The consortium is convinced that the CoCoA-Bio project will contribute to the requalification of HEAs from promising materials to real candidates to replace currently applied material solutions (for lack of anything better), in our case alloys for bio-implants. The consortium’s cross-expertise and resources on additive manufacturing, HEA design and characterization and their surface functionalization are important assets to achieve the objectives of the CoCoA-Bio proposal."
+    },
+
+    "Goals": {
+        "title": "Challenges and Objectives",
+        "text": "Additive manufacturing of HEAs for bio-implants: a technological and scientific advance",
+        "paraph1": "The ageing of the population in our modern societies and the increasing risks of bone diseases or accidents are constantly increasing. Therefore, the development of durable implantable osteosynthesis materials is an important public health issue. This proposal aims to organise a multidisciplinary network to submit a project focused on smart and multifunctional biomaterials for health innovations. The network will draw on interdisciplinary expertise ranging from physical metallurgy and materials chemistry to peptide and protein chemistry and cell engineering with applications in biomedical sciences. The network will bring together top European scientists from universities, research centres and SMEs.",
+        "paraph2": "It will strive to integrate new expertise functions as varied as surface chemistry, peptide biochemistry, corrosion, mechanics of materials and biomaterials while taking into account European regulations on medical devices to improve the strength of the proposal. The proposed materials solution is based on the original concept of metallurgy of alloys with complex composition (multi-main element alloys) produced by additive manufacturing (laser powder bed fusion technology). The objective is a synergy between mechanical properties (Young's modulus, mechanical strength, fatigue life) and chemical and biochemical functionalization. The proposed alloys are based on Ti, Nb, Zr, Mo, Ta and bioinert chemical elements.",
+        "paraph3": "CoCoA-Bio proposes to integrate various expertise, combining surface chemistry and corrosion studies, peptide biochemistry, physical metallurgy and biomaterials, and clinical implantation. In addition, thanks to close collaboration between academic institutions and SMEs, the technological transfer of the bioalloys developed and the processes implemented for their production will be evaluated with a view to their commercialization once validated after the launch of supervised clinical trials. The alloy elements proposed are all bioinert. The methodology adopted in CoCoA-Bio will give the implanted devices a set of qualities necessary to integrate into the biological tissue and compensate for its functional deficiency."
+    },
+    "Results": {
+        "title": "Results",
+        "paraph1": "The combination of additive manufacturing and HEAs creates a long-term vision for bio-implants. These technologies allow the production of implants with improved performance and longevity. This could lead to the development of more wear-resistant implants that can last for decades, as well as significantly reduce the need for replacement surgeries, thus improving the quality of life of patients.<br></br> Laser powder bed fusion is a complex process that requires the understanding and control of multiple parameters to obtain parts with optimized microstructures and free of defects. In addition, refractory alloys add additional complexity, given their high melting temperatures. Thus, an optimization step of the production process is necessary in order to obtain materials with optimal properties.",
+        "paraph2": "From this optimization, two alloy grades were obtained: TiNbZr (TaMo)15 and TiNbZr (TaMo)5 (TNZTM15 and TNZTM5). These alloys have excellent mechanical properties, especially TNZTM5, with an elastic modulus between 55 and 77 GPa, lower than that of Ti and its alloys (110-120 GPa) and much closer to that of bone, which was one of the objectives.<br></br> These data suggest the biocompatibility of this alloy, indicating the absence of acute toxicity, which is a prerequisite for the integration of an alloy as a bio-implant. Finally, a machinability study was conducted to gauge its behavior in shaping, in connection with the assembly areas of a dental implant. The tests carried out show not only good machinability, but also a roughness comparable to that of currently marketed implants.",
+        "secondTitle": "Publications Links"
+    },
+    "Theses": {
+        "title": "Thesis funded by the project",
+        "text": "Interview with doctoral Adrien Mourgout",
+        "desc": "After obtaining his Master's degree in Biomedical Engineering and Biomaterials at the University of Paris 13, Adrien Mourgout, now a doctoral researcher at the CNRS, completed his thesis (supervised by Guy DIRRAS) on January 8, 2025."
+    }
+}

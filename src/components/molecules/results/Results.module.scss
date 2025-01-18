@@ -1,0 +1,21 @@
+@import '../../../app/[locale]/variables.scss';
+
+.results {
+    padding: 2rem;
+
+    .textContainer {
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.4px;
+        @media screen and (min-width: $desktop) {
+            display: flex;
+            gap: 2rem;
+            font-size: 24px;
+        }
+    }
+
+    .title {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}

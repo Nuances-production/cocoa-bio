@@ -1,0 +1,15 @@
+@import '../../../app/[locale]/variables.scss';
+
+.homepage {
+    @media screen and (min-width: $desktop) {
+        height: 100vh;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-top: 10rem;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+}

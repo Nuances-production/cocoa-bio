@@ -1,0 +1,18 @@
+@import '../../../app/[locale]/variables.scss';
+
+.localeButton {
+    flex: 0 0 auto;
+    width: 150px;
+    text-align: right;
+}
+.select {
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}

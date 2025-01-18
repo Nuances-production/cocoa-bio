@@ -1,11 +1,16 @@
+@import '../../../app/[locale]/variables.scss';
+
 .header {
     display: flex;
     align-items: center;
-    padding: 10px;
     position: fixed;
     width: 100%;
     z-index: 100;
-    gap: 16rem;
+    padding: 1rem;
+    justify-content: space-between;
+    @media screen and (min-width: $desktop) {
+        padding: 10px;
+    }
 }
 
 .logo {

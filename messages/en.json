@@ -46,5 +46,10 @@
         "paraph1": "The combination of additive manufacturing and HEAs creates a long-term vision for bio-implants. These technologies allow the production of implants with improved performance and longevity. This could lead to the development of more wear-resistant implants that can last for decades, as well as significantly reduce the need for replacement surgeries, thus improving the quality of life of patients.<br></br> Laser powder bed fusion is a complex process that requires the understanding and control of multiple parameters to obtain parts with optimized microstructures and free of defects. In addition, refractory alloys add additional complexity, given their high melting temperatures. Thus, an optimization step of the production process is necessary in order to obtain materials with optimal properties.",
         "paraph2": "From this optimization, two alloy grades were obtained: TiNbZr (TaMo)15 and TiNbZr (TaMo)5 (TNZTM15 and TNZTM5). These alloys have excellent mechanical properties, especially TNZTM5, with an elastic modulus between 55 and 77 GPa, lower than that of Ti and its alloys (110-120 GPa) and much closer to that of bone, which was one of the objectives.<br></br> These data suggest the biocompatibility of this alloy, indicating the absence of acute toxicity, which is a prerequisite for the integration of an alloy as a bio-implant. Finally, a machinability study was conducted to gauge its behavior in shaping, in connection with the assembly areas of a dental implant. The tests carried out show not only good machinability, but also a roughness comparable to that of currently marketed implants.",
         "secondTitle": "Publications Links"
+    },
+    "Theses": {
+        "title": "Thesis funded by the project",
+        "text": "Interview with doctoral Adrien Mourgout",
+        "desc": "After obtaining his Master's degree in Biomedical Engineering and Biomaterials at the University of Paris 13, Adrien Mourgout, now a doctoral researcher at the CNRS, completed his thesis (supervised by Guy DIRRAS) on January 8, 2025."
     }
 }

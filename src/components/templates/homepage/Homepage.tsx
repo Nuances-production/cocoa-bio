@@ -6,6 +6,7 @@ import Resume from '@/components/molecules/resume/Resume'
 import ImgOnText from '@/components/molecules/imgOntext/ImgOnText'
 import { useTranslations } from 'next-intl'
 import Goals from '@/components/molecules/goals/Goals'
+import Results from '@/components/molecules/results/Results'
 
 export default function Homepage() {
     const t = useTranslations()
@@ -29,6 +30,7 @@ export default function Homepage() {
                 alt=""
             />
             <Goals />
+            <Results />
         </main>
     )
 }

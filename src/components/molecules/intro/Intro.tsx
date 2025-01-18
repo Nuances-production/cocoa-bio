@@ -51,6 +51,14 @@ export default function Intro() {
             <section>
                 <p className={styles.text}>{t('text')}</p>
             </section>
+            <Image
+                src="/1.png"
+                width={500}
+                height={500}
+                alt=""
+                layout="intrinsic"
+                className={styles.image2}
+            />
         </article>
     )
 }

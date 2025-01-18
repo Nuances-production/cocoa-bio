@@ -1,0 +1,31 @@
+@import '../../../app/[locale]/variables.scss';
+
+.imgOnText {
+    background-color: $yellow;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    align-items: center;
+    background-color: $yellow;
+    overflow: hidden;
+
+    .textBlock {
+        padding: 2rem;
+    }
+
+    .title {
+        font-size: 53px;
+    }
+
+    .imageContainer {
+    }
+
+    .image {
+        object-fit: contain;
+        height: auto;
+        width: 100%;
+    }
+}

@@ -12,12 +12,12 @@ const helveticaBold = localFont({
 })
 
 const helveticaMedium = localFont({
-    src: '../fonts/HelveticaNeueBold.otf',
+    src: '../fonts/HelveticaNeueMedium.otf',
     variable: '--helvetica-medium',
 })
 
 const helveticaRegular = localFont({
-    src: '../fonts/HelveticaNeueBold.otf',
+    src: '../fonts/HelveticaNeueRoman.otf',
     variable: '--helvetica-regular',
 })
 

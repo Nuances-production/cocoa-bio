@@ -13,5 +13,13 @@
         "nav4": "Partenaires",
         "nav5": "Galerie photos",
         "nav6": "Contact"
+    },
+
+    "Intro": {
+        "desc": "Fabrication additive de bio-implants métalliques : nouvelles solutions matériau",
+        "stat1": "Collaborateurs",
+        "stat2": "Manipulations réalisées",
+        "stat3": "Lancement du projet",
+        "stat4": "Publications"
     }
 }

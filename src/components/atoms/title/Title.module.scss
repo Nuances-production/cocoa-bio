@@ -1,0 +1,16 @@
+@import '../../../app/[locale]/variables.scss';
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 47px;
+    @media screen and (max-width: $desktop) {
+        font-size: 30px;
+    }
+}

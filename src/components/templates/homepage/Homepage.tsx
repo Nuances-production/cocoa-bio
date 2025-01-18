@@ -2,6 +2,7 @@ import Intro from '@/components/molecules/intro/Intro'
 import React from 'react'
 import styles from './Homepage.module.scss'
 import Image from 'next/image'
+import Resume from '@/components/molecules/resume/Resume'
 
 export default function Homepage() {
     return (
@@ -15,6 +16,7 @@ export default function Homepage() {
                 layout="intrinsic"
                 className={styles.image}
             />
+            <Resume />
         </main>
     )
 }

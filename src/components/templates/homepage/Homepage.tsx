@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Resume from '@/components/molecules/resume/Resume'
 import ImgOnText from '@/components/molecules/imgOntext/ImgOnText'
 import { useTranslations } from 'next-intl'
+import Goals from '@/components/molecules/goals/Goals'
 
 export default function Homepage() {
     const t = useTranslations()
@@ -27,6 +28,7 @@ export default function Homepage() {
                 src="/3.png"
                 alt=""
             />
+            <Goals />
         </main>
     )
 }

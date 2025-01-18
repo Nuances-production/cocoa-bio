@@ -10,7 +10,10 @@
 }
 .title {
     font-size: 47px;
+    text-align: center;
+    padding: 1rem;
     @media screen and (max-width: $desktop) {
         font-size: 30px;
+        padding: 0;
     }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Intro.module.scss'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 export default function Intro() {
     const t = useTranslations('Intro')
@@ -26,16 +27,29 @@ export default function Intro() {
 
     return (
         <article className={styles.intro}>
-            <section className={styles.descContainer}>
-                <p>{t('desc')}</p>
+            <section className={styles.bioContainer}>
+                <div className={styles.descContainer}>
+                    <p>{t('desc')}</p>
+                </div>
+                <div className={styles.numbersContainer}>
+                    {statsData.map((stat, index) => (
+                        <div key={index} className={styles.numberContainer}>
+                            <p className={styles.number}>{stat.number}</p>
+                            <p className={styles.numberDesc}>{stat.text}</p>
+                        </div>
+                    ))}
+                </div>
             </section>
-            <section className={styles.numbersContainer}>
-                {statsData.map((stat, index) => (
-                    <div key={index} className={styles.numberContainer}>
-                        <p className={styles.number}>{stat.number}</p>
-                        <p className={styles.numberDesc}>{stat.text}</p>
-                    </div>
-                ))}
+            <Image
+                src="/picto.png"
+                width={500}
+                height={500}
+                alt=""
+                layout="intrinsic"
+                className={styles.image}
+            />
+            <section>
+                <p className={styles.text}>{t('text')}</p>
             </section>
         </article>
     )

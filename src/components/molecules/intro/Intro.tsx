@@ -1,29 +1,66 @@
-import React from 'react'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+'use client'
+
+import React, { useRef } from 'react'
 import styles from './Intro.module.scss'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 export default function Intro() {
     const t = useTranslations('Intro')
+    const numberRefs = useRef<(HTMLParagraphElement | null)[]>([])
 
     const statsData = [
         {
-            number: '21',
+            number: 21,
+            plus: '',
             text: t('stat1'),
         },
         {
-            number: '2000+',
+            number: 2000,
+            plus: '+',
             text: t('stat2'),
         },
         {
-            number: '2022',
+            number: 2022,
+            plus: '',
             text: t('stat3'),
         },
         {
-            number: '10+',
+            number: 10,
+            plus: '+',
             text: t('stat4'),
         },
     ]
+
+    useGSAP(() => {
+        numberRefs.current.forEach((ref, index) => {
+            if (ref) {
+                // Utilisation correcte de gsap.fromTo avec 3 arguments
+                gsap.fromTo(
+                    ref,
+                    { textContent: 0 }, // État initial
+                    {
+                        textContent: statsData[index].number,
+                        duration: 2, // Durée de l'animation
+                        ease: 'power2.out', // Effet d'animation
+                        snap: { textContent: 1 }, // Force l'arrondi
+                        onUpdate: function () {
+                            // Mettre à jour le contenu du texte
+                            ref.textContent =
+                                Math.floor(
+                                    parseFloat(
+                                        this.targets()[0].textContent || '0'
+                                    )
+                                ).toString() + statsData[index].plus
+                        },
+                    }
+                )
+            }
+        })
+    })
 
     return (
         <article className={styles.intro}>
@@ -34,7 +71,14 @@ export default function Intro() {
                 <div className={styles.numbersContainer}>
                     {statsData.map((stat, index) => (
                         <div key={index} className={styles.numberContainer}>
-                            <p className={styles.number}>{stat.number}</p>
+                            <p
+                                className={styles.number}
+                                ref={(el: any) =>
+                                    (numberRefs.current[index] = el)
+                                }
+                            >
+                                0{stat.plus}
+                            </p>
                             <p className={styles.numberDesc}>{stat.text}</p>
                         </div>
                     ))}

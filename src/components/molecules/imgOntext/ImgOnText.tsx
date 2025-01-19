@@ -21,22 +21,24 @@ export default function ImgOnText({
 }: ImgOnTextProps) {
     const isMobile = useMobile()
     return (
-        <section className={styles.imgOnText}>
-            <div className={styles.textBlock}>
-                {!isMobile && <p className={styles.info}>{info}</p>}
-                <h3 className={styles.title}>{title}</h3>
-                {desc && <p className={styles.desc}>{desc}</p>}
-            </div>
-            <div className={styles.imageContainer}>
-                <Image
-                    src={src}
-                    width={400}
-                    height={400}
-                    layout="intrinsic"
-                    alt={alt}
-                    className={styles.image}
-                />
-            </div>
-        </section>
+        <article className={styles.container}>
+            <section className={styles.imgOnText}>
+                {!isMobile && <div className={styles.whiteSpace} />}
+                <div className={styles.textBlock}>
+                    {!isMobile && <p className={styles.info}>{info}</p>}
+                    <h3 className={styles.title}>{title}</h3>
+                    {desc && <p className={styles.desc}>{desc}</p>}
+                </div>
+            </section>
+            {/* <div className={styles.imageContainer}> */}
+            <Image
+                src={src}
+                width={435}
+                height={600}
+                alt={alt}
+                className={styles.image}
+            />
+            {/* </div> */}
+        </article>
     )
 }

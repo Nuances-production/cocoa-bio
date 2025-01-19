@@ -35,22 +35,22 @@ export default function Navbar() {
             <nav className={`${styles.menu} ${isOpen ? styles.menuOpen : ''}`}>
                 <ul>
                     <li>
-                        <a href="#project" onClick={handleClick}>
+                        <a href="#resume" onClick={handleClick}>
                             {t('Header.nav1')}
                         </a>
                     </li>
                     <li>
-                        <a href="#team" onClick={handleClick}>
+                        <a href="#project" onClick={handleClick}>
                             {t('Header.nav2')}
                         </a>
                     </li>
                     <li>
-                        <a href="#news" onClick={handleClick}>
+                        <a href="#publications" onClick={handleClick}>
                             {t('Header.nav3')}
                         </a>
                     </li>
                     <li>
-                        <a href="#contact" onClick={handleClick}>
+                        <a href="#partners" onClick={handleClick}>
                             {t('Header.nav4')}
                         </a>
                     </li>
@@ -59,11 +59,7 @@ export default function Navbar() {
                             {t('Header.nav5')}
                         </a>
                     </li>
-                    <li>
-                        <a href="#contact" onClick={handleClick}>
-                            {t('Header.nav6')}
-                        </a>
-                    </li>
+
                     <li>
                         <LocalSwitcher
                             enOption={t('Global.language.en')}
@@ -77,22 +73,19 @@ export default function Navbar() {
         <nav className={styles.nav}>
             <ul className={styles.navContainer}>
                 <li>
-                    <a href="#project">{t('Header.nav1')}</a>
+                    <a href="#resume">{t('Header.nav1')}</a>
                 </li>
                 <li>
-                    <a href="#team">{t('Header.nav2')}</a>
+                    <a href="#project">{t('Header.nav2')}</a>
                 </li>
                 <li>
-                    <a href="#news">{t('Header.nav3')}</a>
+                    <a href="#publications">{t('Header.nav3')}</a>
                 </li>
                 <li>
-                    <a href="#contact">{t('Header.nav4')}</a>
+                    <a href="#partners">{t('Header.nav4')}</a>
                 </li>
                 <li>
                     <a href="#contact">{t('Header.nav5')}</a>
-                </li>
-                <li>
-                    <a href="#contact">{t('Header.nav6')}</a>
                 </li>
                 <hr className={styles.verticalBar} />
                 <li>

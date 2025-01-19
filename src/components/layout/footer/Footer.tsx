@@ -11,7 +11,7 @@ export default function Footer() {
     const isMobile = useMobile()
 
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} id="contact">
             <section className={styles.firstPartContainer}>
                 <Image
                     src="/logoFooter.png"

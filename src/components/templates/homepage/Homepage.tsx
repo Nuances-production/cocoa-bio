@@ -33,6 +33,12 @@ export default function Homepage() {
             <Goals />
             <Results />
             <Theses />
+            <ImgOnText
+                info={t('Global.imgOnText2.info')}
+                title={t('Global.imgOnText2.title')}
+                src="/9.png"
+                alt=""
+            />
         </main>
     )
 }

@@ -1,6 +1,9 @@
 @import '../../../app/[locale]/variables.scss';
 
 .theses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .container {
         display: flex;
         flex-direction: column;
@@ -9,6 +12,10 @@
     .image {
         width: 100%;
         height: auto;
+        padding: 1rem;
+        @media screen and (min-width: $desktop) {
+            padding: 0;
+        }
     }
     .title {
         padding: 2rem;

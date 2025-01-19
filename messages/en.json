@@ -7,6 +7,10 @@
         "imgOnText1": {
             "title": "Creation of a New Material",
             "desc": "CoCoA-bio combines two innovative metallurgical concepts to provide a material solution for the intended application, positioning itself on an essential public health issue."
+        },
+        "imgOnText2": {
+            "info": "Partners",
+            "title": "Z3DLAB LSPM BIOCIS ITODYS URB2i"
         }
     },
 
@@ -51,5 +55,8 @@
         "title": "Thesis funded by the project",
         "text": "Interview with doctoral Adrien Mourgout",
         "desc": "After obtaining his Master's degree in Biomedical Engineering and Biomaterials at the University of Paris 13, Adrien Mourgout, now a doctoral researcher at the CNRS, completed his thesis (supervised by Guy DIRRAS) on January 8, 2025."
+    },
+    "Footer": {
+        "title": "Contact us"
     }
 }

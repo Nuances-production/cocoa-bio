@@ -1,9 +1,11 @@
 @import '../../../app/[locale]/variables.scss';
 
 .container {
-    padding: 2rem;
-    position: relative;
-    margin: 100px 0;
+    @media screen and (min-width: $desktop) {
+        padding: 2rem;
+        position: relative;
+        margin: 100px 0;
+    }
 }
 .imgOnText {
     background-color: $yellow;
@@ -47,8 +49,14 @@
 }
 
 .image {
-    left: 165px;
-    top: -54px;
-    position: absolute;
-    object-fit: contain;
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (min-width: $desktop) {
+        left: 165px;
+        top: -54px;
+        position: absolute;
+        object-fit: contain;
+    }
 }

@@ -54,7 +54,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className={styles.contactContainer}>
-                    <p>{t('title')}</p>
+                    <p className={styles.contactUs}>{t('title')}</p>
                     <a href="mailto:hello@optimaa.com">hello@optimaa.com</a>
                 </div>
             </section>

@@ -35,6 +35,21 @@ export default function Intro() {
         },
     ]
 
+    const pictoData = [
+        {
+            url: '/picto1.png',
+        },
+        {
+            url: '/picto2.png',
+        },
+        {
+            url: '/picto3.png',
+        },
+        {
+            url: '/picto4.png',
+        },
+    ]
+
     useGSAP(() => {
         numberRefs.current.forEach((ref, index) => {
             if (ref) {
@@ -84,14 +99,19 @@ export default function Intro() {
                     ))}
                 </div>
             </section>
-            <Image
-                src="/picto.png"
-                width={500}
-                height={500}
-                alt=""
-                layout="intrinsic"
-                className={styles.image}
-            />
+            <div className={styles.pictoContainer}>
+                {pictoData.map((picto, index) => (
+                    <Image
+                        key={index}
+                        src={picto.url}
+                        width={70}
+                        height={70}
+                        alt="picto"
+                        layout="intrinsic"
+                        className={styles.picto}
+                    />
+                ))}
+            </div>
             <section>
                 <p className={styles.text}>{t('text')}</p>
             </section>

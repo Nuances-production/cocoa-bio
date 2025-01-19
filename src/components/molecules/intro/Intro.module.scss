@@ -21,6 +21,7 @@
         gap: 1rem;
         @media screen and (min-width: $desktop) {
             flex-direction: row;
+            gap: 4rem;
         }
     }
 

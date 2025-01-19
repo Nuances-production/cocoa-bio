@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/header/Header'
 import { NextIntlClientProvider } from 'next-intl'
 import localFont from 'next/font/local'
 import { getMessages } from 'next-intl/server'
+import Footer from '@/components/layout/footer/Footer'
 
 const helveticaBold = localFont({
     src: '../fonts/HelveticaNeueBold.otf',
@@ -39,6 +40,7 @@ export default async function LocaleLayout({
                 <NextIntlClientProvider messages={messages}>
                     <Header />
                     {children}
+                    <Footer />
                 </NextIntlClientProvider>
             </body>
         </html>

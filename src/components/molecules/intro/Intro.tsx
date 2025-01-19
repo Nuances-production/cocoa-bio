@@ -52,7 +52,7 @@ export default function Intro() {
                 <p className={styles.text}>{t('text')}</p>
             </section>
             <Image
-                src="/1.png"
+                src="/phases.svg"
                 width={500}
                 height={500}
                 alt=""

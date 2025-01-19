@@ -25,6 +25,14 @@ export default function Theses() {
                 />
                 <p className={styles.desc}>{t('desc')}</p>
             </section>
+            <Image
+                src="/these.svg"
+                alt=""
+                width={300}
+                height={300}
+                layout="intrinsic"
+                className={styles.image}
+            />
         </article>
     )
 }

@@ -1,5 +1,12 @@
 @import '../../../app/[locale]/variables.scss';
 
+.container {
+    @media screen and (min-width: $desktop) {
+        padding: 2rem;
+        position: relative;
+        margin: 100px 0;
+    }
+}
 .imgOnText {
     background-color: $yellow;
     width: 100%;
@@ -7,13 +14,29 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    position: relative;
     align-items: center;
-    background-color: $yellow;
-    overflow: hidden;
+
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+        gap: 0;
+        min-height: 415px;
+    }
+
+    .whiteSpace {
+        flex: 2;
+        width: 100%;
+    }
 
     .textBlock {
         padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        @media screen and (min-width: $desktop) {
+            gap: 3rem;
+            justify-content: space-between;
+            flex: 1;
+        }
     }
 
     .title {
@@ -23,10 +46,17 @@
     .imageContainer {
         background-color: black;
     }
+}
 
-    .image {
-        object-fit: contain;
-        height: auto;
+.image {
+    @media screen and (max-width: $desktop) {
         width: 100%;
+        height: auto;
+    }
+    @media screen and (min-width: $desktop) {
+        left: 165px;
+        top: -54px;
+        position: absolute;
+        object-fit: contain;
     }
 }

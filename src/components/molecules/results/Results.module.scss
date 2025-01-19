@@ -10,12 +10,20 @@
         @media screen and (min-width: $desktop) {
             display: flex;
             gap: 2rem;
-            font-size: 24px;
+            font-size: 16px;
+            padding: 4rem;
         }
     }
 
     .title {
         font-size: 25px;
         margin-top: 20px;
+    }
+
+    .linkList {
+        margin-left: 18px;
+        @media screen and (min-width: $desktop) {
+            margin: 0;
+        }
     }
 }

@@ -15,20 +15,29 @@
             display: flex;
             gap: 2rem;
             padding: 0;
-            font-size: 24px;
+            font-size: 16px;
         }
     }
 
     .imgContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
         @media screen and (min-width: $desktop) {
-            display: flex;
             gap: 2rem;
             width: 100%;
+            flex-direction: row;
         }
     }
 
     .image {
         width: 100%;
         height: auto;
+    }
+
+    .title {
+        padding: 2rem;
+        text-align: center;
+        margin-bottom: 0;
     }
 }

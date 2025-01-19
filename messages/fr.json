@@ -7,6 +7,10 @@
         "imgOnText1": {
             "title": "Création d’un Nouveau Matériau",
             "desc": "CoCoA-bio combine deux concepts métallurgiques innovants pour fournir une solution matériau pour l’application envisagée, se positionnant sur un enjeu de santé publique essentiel."
+        },
+        "imgOnText2": {
+            "info": "Partenaires",
+            "title": "Z3DLAB LSPM BIOCIS ITODYS URB2i"
         }
     },
 
@@ -15,8 +19,7 @@
         "nav2": "Le Projet",
         "nav3": "Publications",
         "nav4": "Partenaires",
-        "nav5": "Galerie photos",
-        "nav6": "Contact"
+        "nav5": "Contact"
     },
 
     "Intro": {
@@ -50,5 +53,8 @@
         "title": "Thèse financée par le projet",
         "text": "Interview avec le doctorant Adrien Mourgout",
         "desc": "Suite à l’obtention de son Master en Ingénieurie bio-médicale et biomatériaux à l’Université Paris 13, Adrien Mourgout, aujourd’hui doctorant chercheur au CNRS, à passé sa thèse (dirigé par Guy DIRRAS) le 8 janvier 2025."
+    },
+    "Footer": {
+        "title": "Contactez-nous"
     }
 }

@@ -18,4 +18,11 @@
         font-size: 25px;
         margin-top: 20px;
     }
+
+    .linkList {
+        margin-left: 18px;
+        @media screen and (min-width: $desktop) {
+            margin: 0;
+        }
+    }
 }

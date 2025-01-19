@@ -14,6 +14,14 @@
 
     .textBlock {
         padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        @media screen and (min-width: $desktop) {
+            padding: 4rem;
+            flex-direction: row;
+            gap: 0;
+        }
     }
 
     .title {
@@ -22,6 +30,7 @@
 
     .imageContainer {
         background-color: black;
+        width: 100%;
     }
 
     .image {

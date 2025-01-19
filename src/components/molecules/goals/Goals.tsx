@@ -24,7 +24,11 @@ export default function Goals() {
 
     return (
         <article className={styles.goals}>
-            <Title label={t('title')} text={t('text')} />
+            <Title
+                label={t('title')}
+                text={t('text')}
+                className={styles.title}
+            />
             <section className={styles.textContainer}>
                 <p>{t('paraph1')}</p>
                 <p>{t('paraph2')}</p>

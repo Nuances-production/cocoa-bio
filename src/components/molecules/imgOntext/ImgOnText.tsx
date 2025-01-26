@@ -10,6 +10,7 @@ interface ImgOnTextProps {
     src: string
     alt: string
     desc?: string
+    id?: string
 }
 
 export default function ImgOnText({
@@ -18,10 +19,11 @@ export default function ImgOnText({
     desc,
     src,
     alt,
+    id,
 }: ImgOnTextProps) {
     const isMobile = useMobile()
     return (
-        <article className={styles.container}>
+        <article className={styles.container} id={id}>
             <section className={styles.imgOnText}>
                 {!isMobile && <div className={styles.whiteSpace} />}
                 <div className={styles.textBlock}>

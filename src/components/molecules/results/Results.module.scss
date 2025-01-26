@@ -23,7 +23,10 @@
     .linkList {
         margin-left: 18px;
         @media screen and (min-width: $desktop) {
-            margin: 0;
         }
+    }
+
+    .link {
+        color: white;
     }
 }

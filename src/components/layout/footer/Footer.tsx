@@ -34,7 +34,7 @@ export default function Footer() {
                     </Link>
                     <Link href="">
                         <Image
-                            src="/x.png"
+                            src="/yt.png"
                             width={50}
                             height={50}
                             alt=""

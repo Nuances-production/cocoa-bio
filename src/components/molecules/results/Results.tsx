@@ -9,16 +9,16 @@ export default function Results() {
 
     const linkData = [
         {
-            url: '',
-            title: '',
+            url: 'https://hal.science/hal-04727725v1/document ',
+            title: 'L-PBF processing and characterization of a Ti 35 Nb 30 Zr 29 Mo 3 Ta 3 multiprincipal element alloy for medical implants',
         },
         {
-            url: '',
-            title: '',
+            url: 'https://pubs.aip.org/aip/apl/article-abstract/125/4/041904/3304598/L-PBF-processing-and-characterization-of-a?redirectedFrom=fulltext',
+            title: 'Enhancing biomedical metal implants with synthetic peptides: improved bioactivity and in vitro safety,',
         },
         {
-            url: '',
-            title: '',
+            url: 'https://hal.science/hal-04739764v1/document',
+            title: 'L-PBF processing and characterization of a Ti35Nb30Zr29Mo3Ta3 multiprincipal element alloy for medical implants',
         },
         {
             url: '',
@@ -30,7 +30,7 @@ export default function Results() {
         },
     ]
     return (
-        <article className={styles.results}>
+        <article className={styles.results} id="publications">
             <Title label={t('title')} />
             <section className={styles.textContainer}>
                 <p>{t.rich('paraph1', { br: () => <br /> })}</p>

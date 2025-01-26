@@ -20,14 +20,6 @@ export default function Results() {
             url: 'https://hal.science/hal-04739764v1/document',
             title: 'L-PBF processing and characterization of a Ti35Nb30Zr29Mo3Ta3 multiprincipal element alloy for medical implants',
         },
-        {
-            url: '',
-            title: '',
-        },
-        {
-            url: '',
-            title: '',
-        },
     ]
     return (
         <article className={styles.results} id="publications">

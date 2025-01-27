@@ -77,7 +77,6 @@ export default function Partners() {
             <section className={styles.imgOnText}>
                 {!isMobile && <div className={styles.whiteSpace} />}
                 <div className={styles.textBlock}>
-                    {/* {!isMobile && <p className={styles.info}>{info}</p>} */}
                     <p
                         className={
                             selectedData
@@ -85,7 +84,7 @@ export default function Partners() {
                                 : `${styles.desc}`
                         }
                     >
-                        Partners
+                        {t('partners')}
                     </p>
                     {selectedPartner === null ? (
                         // Si aucun partenaire n'est sélectionné, afficher tous les boutons

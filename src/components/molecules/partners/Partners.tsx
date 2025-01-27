@@ -64,6 +64,12 @@ export default function Partners() {
         setIsOpen(false)
     }
 
+    const handleBackdropClick = (e: React.MouseEvent) => {
+        if (e.target === e.currentTarget) {
+            handleCloseModal()
+        }
+    }
+
     // Trouver les données du partenaire sélectionné
     const selectedData = datas.find((data) => data.title === selectedPartner)
     return (
@@ -128,15 +134,20 @@ export default function Partners() {
             />
             {/* </div> */}
             {isOpen && (
-                <div className={styles.modal}>
-                    <button onClick={handleCloseModal}>X</button>
-                    <Image
-                        width={300}
-                        height={300}
-                        alt=""
-                        src={selectedData?.highlight as string}
+                <>
+                    <div
+                        className={styles.backdrop}
+                        onClick={handleBackdropClick}
                     />
-                </div>
+                    <div className={styles.modal}>
+                        {/* <button onClick={handleCloseModal}>X</button> */}
+                        <Image
+                            fill
+                            alt=""
+                            src={selectedData?.highlight as string}
+                        />
+                    </div>
+                </>
             )}
         </article>
     )

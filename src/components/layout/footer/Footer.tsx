@@ -69,6 +69,7 @@ export default function Footer() {
                     layout="intrinsic"
                     className={styles.banniere}
                 />
+                <div className={styles.credits}>© 2025 Nuance Productions</div>
             </section>
         </footer>
     )

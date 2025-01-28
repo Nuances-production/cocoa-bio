@@ -34,7 +34,7 @@ export default function Footer() {
                     </Link>
                     <Link href="">
                         <Image
-                            src="/x.png"
+                            src="/yt.png"
                             width={50}
                             height={50}
                             alt=""
@@ -69,6 +69,7 @@ export default function Footer() {
                     layout="intrinsic"
                     className={styles.banniere}
                 />
+                <div className={styles.credits}>© 2025 Nuance Productions</div>
             </section>
         </footer>
     )

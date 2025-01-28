@@ -1,0 +1,116 @@
+@import '../../../app/[locale]/variables.scss';
+
+.container {
+    @media screen and (min-width: $desktop) {
+        padding: 2rem;
+        position: relative;
+        margin: 100px 0;
+    }
+}
+.imgOnText {
+    background-color: $yellow;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+        gap: 0;
+        min-height: 415px;
+        max-height: 415px;
+    }
+
+    .whiteSpace {
+        flex: 2;
+        width: 100%;
+    }
+
+    .textBlock {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        @media screen and (min-width: $desktop) {
+            flex: 1;
+        }
+    }
+
+    .desc {
+        font-family: 'helveticaBold';
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 40px;
+        border: none;
+        background-color: transparent;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .imageContainer {
+        background-color: black;
+    }
+}
+
+.image {
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (min-width: $desktop) {
+        left: 165px;
+        top: -54px;
+        position: absolute;
+        object-fit: contain;
+    }
+}
+
+.backButton {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    @media screen and (min-width: $desktop) {
+        right: 45px;
+        top: 45px;
+    }
+}
+
+.selected {
+    font-size: 30px;
+}
+
+.buttonModal {
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'helveticaBold';
+    margin-top: 30px;
+    cursor: pointer;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    width: 100%;
+    height: 280px;
+    @media screen and (min-width: $desktop) {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Couleur sombre avec opacité */
+    z-index: 100;
+}

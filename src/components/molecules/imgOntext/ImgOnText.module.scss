@@ -23,7 +23,7 @@
     }
 
     .whiteSpace {
-        flex: 2;
+        flex: 1;
         width: 100%;
     }
 
@@ -36,6 +36,7 @@
             gap: 3rem;
             justify-content: space-between;
             flex: 1;
+            margin-left: 30px;
         }
     }
 
@@ -59,4 +60,9 @@
         position: absolute;
         object-fit: contain;
     }
+}
+
+.info {
+    font-family: 'helveticaBold';
+    font-size: 20px;
 }

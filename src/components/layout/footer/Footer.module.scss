@@ -33,4 +33,18 @@
     .contactUs {
         font-family: 'helveticaBold';
     }
+
+    .secondPartContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .credits {
+        width: 100%;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        padding: 1rem;
+        background-color: white !important;
+    }
 }

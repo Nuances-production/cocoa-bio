@@ -17,13 +17,21 @@
 
     .title {
         font-size: 25px;
-        margin-top: 20px;
+        margin: 20px 0;
     }
 
     .linkList {
         margin-left: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         @media screen and (min-width: $desktop) {
-            margin: 0;
+        }
+    }
+
+    .link {
+        a {
+            color: white;
         }
     }
 }

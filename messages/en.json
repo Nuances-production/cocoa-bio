@@ -50,6 +50,15 @@
         "paraph2": "From this optimization, two alloy grades were obtained: TiNbZr (TaMo)15 and TiNbZr (TaMo)5 (TNZTM15 and TNZTM5). These alloys have excellent mechanical properties, especially TNZTM5, with an elastic modulus between 55 and 77 GPa, lower than that of Ti and its alloys (110-120 GPa) and much closer to that of bone, which was one of the objectives.<br></br> These data suggest the biocompatibility of this alloy, indicating the absence of acute toxicity, which is a prerequisite for the integration of an alloy as a bio-implant. Finally, a machinability study was conducted to gauge its behavior in shaping, in connection with the assembly areas of a dental implant. The tests carried out show not only good machinability, but also a roughness comparable to that of currently marketed implants.",
         "secondTitle": "Publications Links"
     },
+    "Partners": {
+        "partners": "Partners",
+        "desc1": "Z3DLAB is a materials science technology company focused on high-performance titanium powders for additive manufacturing applications, particularly metal powder production and the fabrication of high-value-added parts, targeting the aerospace and medical sectors.",
+        "desc2": "The LSPM (Laboratory of Process and Materials Sciences) is an independent research unit of the CNRS, with a team of approximately 130 members, including more than 30 doctoral students, 61 researchers or teacher-researchers, and 20 technicians and administrative staff. Its research is multidisciplinary and spans a broad range of fields in process and materials science.",
+        "desc3": "Specializing in the chemistry of modified amino acids and peptides, particularly fluorinated peptides, glycosides, and glycopeptides, for applications in biological chemistry and medicinal chemistry, the Biological Chemistry team of CY Cergy Paris University joined the CNRS UMR BioCIS (Biomolecules: Design, Isolation, Synthesis) at the Faculty of Pharmacy of Paris-Saclay University in 2020.",
+        "desc4": "The Interfaces, Treatment, Organization, and DYnamics of Systems Laboratory – ITODYS, UMR7086, is a joint research unit of Université Paris Diderot and the CNRS (UMR 7086), affiliated with the CNRS Institute of Chemistry. The laboratory conducts research activities focused on surface chemistry, interfaces, nanomaterials and nanosystems, and molecular chemistry for nanosciences.",
+        "desc5": "The Research Unit for Innovative Biomaterials and Interfaces (URB2i) is jointly overseen by Université Paris Cité (formerly Paris Descartes) and Université Paris 13 (now known as Université Sorbonne Paris Nord). URB2i is recognized by the academic, clinical, and dental industry communities for its scientific activities in the development, characterization, shaping, assembly, and performance evaluation of dental biomaterials.",
+        "highlight": "Highlights"
+    },
     "Theses": {
         "title": "Thesis funded by the project",
         "text": "Interview with doctoral Adrien Mourgout",

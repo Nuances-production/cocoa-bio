@@ -7,7 +7,7 @@ export default function Resume() {
     const t = useTranslations('Resume')
 
     return (
-        <article className={styles.resume}>
+        <article className={styles.resume} id="resume">
             <Title label={t('title')} text="CocoA-Bio" />
             <div className={styles.textContainer}>
                 <p className={styles.paragraph}>{t('paraph1')}</p>

@@ -22,7 +22,7 @@ export default function Footer() {
                     className={styles.image}
                 />
                 <div className={styles.pictoContainer}>
-                    <Link href="">
+                    <Link href="https://www.facebook.com/profile.php?id=61572744238216">
                         <Image
                             src="/fb.png"
                             width={50}
@@ -32,7 +32,7 @@ export default function Footer() {
                             className={styles.picto}
                         />
                     </Link>
-                    <Link href="">
+                    <Link href="https://www.youtube.com/@COCOABIO-r2c">
                         <Image
                             src="/yt.png"
                             width={50}
@@ -42,7 +42,7 @@ export default function Footer() {
                             className={styles.picto}
                         />
                     </Link>
-                    <Link href="">
+                    <Link href="https://www.linkedin.com/company/lspm-cnrs/">
                         <Image
                             src="/lkin.png"
                             width={50}

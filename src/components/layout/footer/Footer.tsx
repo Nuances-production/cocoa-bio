@@ -9,6 +9,7 @@ import useMobile from '@/hooks/useMobile'
 export default function Footer() {
     const t = useTranslations('Footer')
     const isMobile = useMobile()
+    const currentYear = new Date().getFullYear()
 
     return (
         <footer className={styles.footer} id="contact">
@@ -69,7 +70,9 @@ export default function Footer() {
                     layout="intrinsic"
                     className={styles.banniere}
                 />
-                <div className={styles.credits}>© 2025 Nuance Productions</div>
+                <div className={styles.credits}>
+                    © {currentYear} Nuance Productions
+                </div>
             </section>
         </footer>
     )

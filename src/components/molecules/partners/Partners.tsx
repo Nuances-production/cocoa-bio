@@ -4,6 +4,7 @@ import styles from './Partners.module.scss'
 import useMobile from '@/hooks/useMobile'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import Title from '@/components/atoms/title/Title'
 
 export default function Partners() {
     const t = useTranslations('Partners')
@@ -73,19 +74,13 @@ export default function Partners() {
     // Trouver les données du partenaire sélectionné
     const selectedData = datas.find((data) => data.title === selectedPartner)
     return (
+        <>
+            <Title  label={t('partners')} />
         <article className={styles.container} id="partners">
             <section className={styles.imgOnText}>
                 {!isMobile && <div className={styles.whiteSpace} />}
                 <div className={styles.textBlock}>
-                    <p
-                        className={
-                            selectedData
-                                ? `${styles.selected}`
-                                : `${styles.desc}`
-                        }
-                    >
-                        {t('partners')}
-                    </p>
+                  
                     {selectedPartner === null ? (
                         // Si aucun partenaire n'est sélectionné, afficher tous les boutons
                         datas.map((data, index) => (
@@ -149,5 +144,7 @@ export default function Partners() {
                 </>
             )}
         </article>
+        </>
+
     )
 }

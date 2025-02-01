@@ -24,7 +24,7 @@ export default function Intro() {
             text: t('stat2'),
         },
         {
-            number: 2022,
+            number: 2021,
             plus: '',
             text: t('stat3'),
         },

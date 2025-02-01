@@ -1,11 +1,17 @@
+@import '../../../app/[locale]/variables.scss';
+
 .cardContainer {
     position: relative;
-    width: 100%; // Le conteneur occupe toute la largeur disponible
-    aspect-ratio: 1; // Maintient un rapport largeur/hauteur carré
-    perspective: 1000px;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
-    max-height: 800px;
+    width: 100%;
+    height: 200px;
+    @media screen and (min-width: $desktop) {
+        aspect-ratio: 1;
+        perspective: 1000px;
+        height: auto;
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        max-height: 800px;
+    }
 
     .face {
         position: absolute;

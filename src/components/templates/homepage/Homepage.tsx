@@ -7,7 +7,6 @@ import { useTranslations } from 'next-intl'
 import Goals from '@/components/molecules/goals/Goals'
 import Results from '@/components/molecules/results/Results'
 import Theses from '@/components/molecules/theses/Theses'
-import FlipImage from '@/components/molecules/flipImage/FlipImage'
 import Partners from '@/components/molecules/partners/Partners'
 
 export default function Homepage() {
@@ -15,7 +14,6 @@ export default function Homepage() {
     return (
         <main className={styles.homepage}>
             <Intro />
-            <FlipImage frontSrc="/2.png" backSrc="/lastImg.png" alt="" />
             <Resume />
             <ImgOnText
                 info="CocoA-Bio"
@@ -28,13 +26,6 @@ export default function Homepage() {
             <Goals />
             <Results />
             <Theses />
-            {/* <ImgOnText
-                info={t('Global.imgOnText2.info')}
-                title={t('Global.imgOnText2.title')}
-                src="/9.png"
-                alt=""
-                id="partners"
-            /> */}
             <Partners />
         </main>
     )

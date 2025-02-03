@@ -56,7 +56,9 @@ export default function Footer() {
                 </div>
                 <div className={styles.contactContainer}>
                     <p className={styles.contactUs}>{t('title')}</p>
-                    <a href="mailto:dirras@univ-paris13.fr">dirras@univ-paris13.fr</a>
+                    <a href="mailto:dirras@univ-paris13.fr">
+                        dirras@univ-paris13.fr
+                    </a>
                 </div>
             </section>
             <section className={styles.secondPartContainer}>

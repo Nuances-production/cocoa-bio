@@ -15,13 +15,9 @@ export default function Theses() {
                 className={styles.title}
             />
             <section className={styles.container}>
-                <Image
-                    src="/7.png"
-                    alt=""
-                    width={300}
-                    height={300}
-                    layout="intrinsic"
-                    className={styles.image}
+                <iframe
+                    src="https://www.youtube.com/embed/qJjoPzA_L7c"
+                    className={styles.video}
                 />
                 <p className={styles.desc}>{t('desc')}</p>
             </section>

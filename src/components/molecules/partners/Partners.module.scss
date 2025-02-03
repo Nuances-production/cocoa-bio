@@ -116,3 +116,11 @@
     background-color: rgba(0, 0, 0, 0.6); /* Couleur sombre avec opacité */
     z-index: 100;
 }
+
+.closeModal {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 20000;
+}

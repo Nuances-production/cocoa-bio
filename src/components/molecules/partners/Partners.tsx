@@ -75,76 +75,84 @@ export default function Partners() {
     const selectedData = datas.find((data) => data.title === selectedPartner)
     return (
         <>
-            <Title  label={t('partners')} />
-        <article className={styles.container} id="partners">
-            <section className={styles.imgOnText}>
-                {!isMobile && <div className={styles.whiteSpace} />}
-                <div className={styles.textBlock}>
-                  
-                    {selectedPartner === null ? (
-                        // Si aucun partenaire n'est sélectionné, afficher tous les boutons
-                        datas.map((data, index) => (
-                            <button
-                                key={index}
-                                className={styles.title}
-                                onClick={() => handlePartnerClick(data.title)}
-                            >
-                                {data.title}
-                            </button>
-                        ))
-                    ) : (
-                        // Si un partenaire est sélectionné, afficher sa description
-                        <>
-                            <div
-                                onClick={handleClickBack}
-                                className={styles.backButton}
-                            >
-                                X
-                            </div>
-                            <div className={styles.partnerDetails}>
-                                <p className={styles.description}>
-                                    {selectedData?.desc}
-                                </p>
-                                {selectedData && selectedData.highlight && (
-                                    <button
-                                        className={styles.buttonModal}
-                                        onClick={handleOpenModal}
-                                    >
-                                        {t('highlight')}
-                                    </button>
-                                )}
-                            </div>
-                        </>
-                    )}
-                </div>
-            </section>
-            {/* <div className={styles.imageContainer}> */}
-            <Image
-                src={selectedData ? selectedData.url : '/9.png'}
-                width={435}
-                height={600}
-                alt={selectedData?.alt || 'photo de base'}
-                className={styles.image}
-            />
-            {/* </div> */}
-            {isOpen && (
-                <>
-                    <div
-                        className={styles.backdrop}
-                        onClick={handleBackdropClick}
-                    />
-                    <div className={styles.modal}>
-                        {/* <button onClick={handleCloseModal}>X</button> */}
-                        <Image
-                            fill
-                            alt=""
-                            src={selectedData?.highlight as string}
-                        />
+            <Title label={t('partners')} />
+            <article className={styles.container} id="partners">
+                <section className={styles.imgOnText}>
+                    {!isMobile && <div className={styles.whiteSpace} />}
+                    <div className={styles.textBlock}>
+                        {selectedPartner === null ? (
+                            datas.map((data, index) => (
+                                <button
+                                    key={index}
+                                    className={styles.title}
+                                    onClick={() =>
+                                        handlePartnerClick(data.title)
+                                    }
+                                >
+                                    {data.title}
+                                </button>
+                            ))
+                        ) : (
+                            <>
+                                <div
+                                    onClick={handleClickBack}
+                                    className={styles.backButton}
+                                >
+                                    <Image
+                                        width={50}
+                                        height={50}
+                                        alt="cross"
+                                        src="/blackCross.png"
+                                    />
+                                </div>
+                                <div className={styles.partnerDetails}>
+                                    <p className={styles.description}>
+                                        {selectedData?.desc}
+                                    </p>
+                                    {selectedData && selectedData.highlight && (
+                                        <button
+                                            className={styles.buttonModal}
+                                            onClick={handleOpenModal}
+                                        >
+                                            {t('highlight')}
+                                        </button>
+                                    )}
+                                </div>
+                            </>
+                        )}
                     </div>
-                </>
-            )}
-        </article>
+                </section>
+                <Image
+                    src={selectedData ? selectedData.url : '/9.png'}
+                    width={435}
+                    height={600}
+                    alt={selectedData?.alt || 'photo de base'}
+                    className={styles.image}
+                />
+                {isOpen && (
+                    <>
+                        <div
+                            className={styles.backdrop}
+                            onClick={handleBackdropClick}
+                        />
+                        <div className={styles.modal}>
+                            <Image
+                                width={50}
+                                height={50}
+                                alt="cross"
+                                src="/whiteCross.png"
+                                className={styles.closeModal}
+                                onClick={handleCloseModal}
+                            />
+                            <Image
+                                fill
+                                alt=""
+                                src={selectedData?.highlight as string}
+                            />
+                        </div>
+                    </>
+                )}
+            </article>
         </>
-
     )
 }

@@ -9,16 +9,24 @@ export default function Results() {
 
     const linkData = [
         {
-            url: 'https://hal.science/hal-04727725v1/document ',
-            title: 'L-PBF processing and characterization of a Ti 35 Nb 30 Zr 29 Mo 3 Ta 3 multiprincipal element alloy for medical implants',
-        },
-        {
-            url: 'https://pubs.aip.org/aip/apl/article-abstract/125/4/041904/3304598/L-PBF-processing-and-characterization-of-a?redirectedFrom=fulltext',
-            title: 'Enhancing biomedical metal implants with synthetic peptides: improved bioactivity and in vitro safety,',
+            url: 'https://hal.science/hal-03879158',
+            title: 'Laser Powder Bed Fusion Processing Of Complex Concentrated Alloys For Bio-Implants. 27, Dec, 2022.',
         },
         {
             url: 'https://hal.science/hal-04739764v1/document',
-            title: 'L-PBF processing and characterization of a Ti35Nb30Zr29Mo3Ta3 multiprincipal element alloy for medical implants',
+            title: 'L-PBF processing and characterization of a Ti35Nb30Zr29Mo3Ta3 multiprincipal element alloy for medical implants, Jul, 24, 2024.',
+        },
+        {
+            url: 'https://hal.science/hal-04725375',
+            title: 'Novel biocompatible alloys via peptides surface engineering. Oct, 8, 2024.',
+        },
+        {
+            url: 'https://hal.science/hal-04727725v1/document',
+            title: 'Enhancing biomedical metal implants with synthetic peptides: improved bioactivity and in vitro safety, Oct, 9, 2024.',
+        },
+        {
+            url: 'https://hal.science/hal-04854358',
+            title: 'In-situ chemical grafting of aminophenyl and RGD peptide on an equimolar high-entropy HfNbTaTiZr alloy: electrochemical behavior and surface characterization, Dec, 23, 2024',
         },
     ]
     return (

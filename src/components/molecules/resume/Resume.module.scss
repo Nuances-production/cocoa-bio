@@ -1,15 +1,26 @@
 @import '../../../app/[locale]/variables.scss';
 .resume {
-    padding: 2rem;
+    @media screen and (min-width: $desktop) {
+        padding: 2rem;
+    }
 
     .textContainer {
         font-size: 14px;
         line-height: 1.4;
+        padding: 2rem;
         letter-spacing: 0.4px;
         @media screen and (min-width: $desktop) {
             display: flex;
             gap: 5rem;
             font-size: 16px;
+            padding: 0;
+        }
+    }
+
+    .paragraph1 {
+        margin-top: 20px;
+        @media screen and (min-width: $desktop) {
+            margin: 0;
         }
     }
 }

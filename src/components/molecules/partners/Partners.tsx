@@ -27,7 +27,7 @@ export default function Partners() {
             highlight: '/highlight2.svg',
         },
         {
-            title: 'BIOCIS',
+            title: 'BIOCIS ERRMECe',
             desc: t('desc3'),
             url: '/3_biocis.png',
             alt: '',

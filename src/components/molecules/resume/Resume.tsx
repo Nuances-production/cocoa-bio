@@ -12,7 +12,7 @@ export default function Resume() {
             <Title label={t('title')} text="CocoA-Bio" />
             <FlipImage frontSrc="/2.png" backSrc="/lastImg.png" alt="" />
             <div className={styles.textContainer}>
-                <p className={styles.paragraph}>{t('paraph1')}</p>
+                <p className={styles.paragraph1}>{t('paraph1')}</p>
                 <p className={styles.paragraph}>{t('paraph2')}</p>
             </div>
         </article>

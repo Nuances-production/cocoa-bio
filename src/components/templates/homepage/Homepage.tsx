@@ -27,6 +27,7 @@ export default function Homepage() {
             <Results />
             <Theses />
             <Partners />
+            <div className={styles.whitespace} />
         </main>
     )
 }

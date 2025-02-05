@@ -22,7 +22,7 @@ export default function Theses() {
                 <p className={styles.desc}>{t('desc')}</p>
             </section>
             <Image
-                src="/thesesvg.svg"
+                src="/img_these.svg"
                 alt=""
                 width={300}
                 height={300}

@@ -69,7 +69,6 @@ export default function Footer() {
                     width={500}
                     height={500}
                     alt=""
-                    layout="intrinsic"
                     className={styles.banniere}
                 />
                 <div className={styles.credits}>

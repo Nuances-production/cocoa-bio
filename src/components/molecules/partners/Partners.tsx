@@ -74,9 +74,9 @@ export default function Partners() {
     // Trouver les données du partenaire sélectionné
     const selectedData = datas.find((data) => data.title === selectedPartner)
     return (
-        <>
+        <div id="partners">
             <Title label={t('partners')} />
-            <article className={styles.container} id="partners">
+            <article className={styles.container}>
                 <section className={styles.imgOnText}>
                     {!isMobile && <div className={styles.whiteSpace} />}
                     <div className={styles.textBlock}>
@@ -153,6 +153,6 @@ export default function Partners() {
                     </>
                 )}
             </article>
-        </>
+        </div>
     )
 }

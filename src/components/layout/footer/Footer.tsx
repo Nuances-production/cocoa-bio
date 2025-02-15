@@ -66,8 +66,8 @@ export default function Footer() {
                     src={
                         isMobile ? '/footer_mobile.svg' : '/footer_desktop.svg'
                     }
-                    width={300}
-                    height={300}
+                    width={500}
+                    height={500}
                     alt=""
                     layout="intrinsic"
                     className={styles.banniere}

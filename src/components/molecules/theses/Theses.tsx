@@ -14,13 +14,17 @@ export default function Theses() {
                 text={t('text')}
                 className={styles.title}
             />
+            <p className={styles.desc}>{t('desc')}</p>
             <section className={styles.container}>
                 <iframe
                     src="https://www.youtube.com/embed/qJjoPzA_L7c"
                     className={styles.video}
                 />
-                <p className={styles.desc}>{t('desc')}</p>
             </section>
+            <div className={styles.section}>
+                <h4 className={styles.titleSection}>{t('titleOutro')} </h4>
+                <p className={styles.text}>{t('textOutro')}</p>
+            </div>
             <Image
                 src="/img_these.svg"
                 alt=""

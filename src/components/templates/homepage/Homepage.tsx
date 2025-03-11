@@ -8,6 +8,7 @@ import Goals from '@/components/molecules/goals/Goals'
 import Results from '@/components/molecules/results/Results'
 import Theses from '@/components/molecules/theses/Theses'
 import Partners from '@/components/molecules/partners/Partners'
+import Perspectives from '@/components/molecules/perspectives/Perspectives'
 
 export default function Homepage() {
     const t = useTranslations()
@@ -27,6 +28,7 @@ export default function Homepage() {
             <Results />
             <Theses />
             <Partners />
+            <Perspectives />
             <div className={styles.whitespace} />
         </main>
     )

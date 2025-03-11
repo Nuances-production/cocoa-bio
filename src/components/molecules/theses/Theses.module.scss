@@ -9,6 +9,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        width: 100%;
     }
     .image {
         width: 100%;
@@ -36,8 +37,32 @@
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.4px;
+        font-style: italic;
         @media screen and (min-width: $desktop) {
             font-size: 16px;
+            margin-bottom: 30px;
         }
     }
+}
+
+.section {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.4px;
+    margin: 20px 0;
+    padding: 2rem;
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        margin: 80px 0;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        font-size: 16px;
+    }
+}
+
+.titleSection {
+    font-family: 'helveticaMedium';
+    font-size: 20px;
+    margin-bottom: 10px;
 }

@@ -22,6 +22,17 @@ export default function Goals() {
         },
     ]
 
+    const methodData = [
+        t('desc1'),
+        t('desc2'),
+        t('desc3'),
+        t.rich('desc4', { br: () => <br /> }),
+        t('desc5'),
+        t.rich('desc6', { br: () => <br /> }),
+    ]
+
+    const goalsData = [t('goals1'), t('goals2'), t('goals3'), t('goals4')]
+
     return (
         <article className={styles.goals}>
             <Title
@@ -29,11 +40,25 @@ export default function Goals() {
                 text={t('text')}
                 className={styles.title}
             />
-            <section className={styles.textContainer}>
-                <p>{t('paraph1')}</p>
-                <p>{t('paraph2')}</p>
-                <p>{t('paraph3')}</p>
-            </section>
+            <div className={styles.descContainer}>
+                <h4 className={styles.descTitle}>{t('descTitle')}</h4>
+                <p className={styles.desc}>{t('desc')}</p>
+                <div className={styles.methodContainer}>
+                    {methodData.map((text, index) => (
+                        <p key={index} className={styles.methodText}>
+                            {text}
+                        </p>
+                    ))}
+                </div>
+                <h4 className={styles.goalsTitle}>{t('goalsTitle')}</h4>
+                <div className={styles.methodContainer}>
+                    {goalsData.map((text, index) => (
+                        <p key={index} className={styles.methodText}>
+                            {text}
+                        </p>
+                    ))}
+                </div>
+            </div>
             <section className={styles.imgContainer}>
                 {imgData.map((img, index) => (
                     <Image

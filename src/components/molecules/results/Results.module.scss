@@ -1,7 +1,12 @@
 @import '../../../app/[locale]/variables.scss';
 
 .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .textContainer {
+        display: flex;
+        flex-direction: column;
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.4px;
@@ -29,7 +34,7 @@
         margin-left: 18px;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         padding: 2rem;
         @media screen and (min-width: $desktop) {
             padding: 0;
@@ -41,4 +46,15 @@
             color: white;
         }
     }
+}
+
+.titleSection {
+    font-family: 'helveticaMedium';
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.img {
+    margin: 40px 0;
 }

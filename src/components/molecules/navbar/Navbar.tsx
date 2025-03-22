@@ -45,6 +45,11 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li>
+                        <a href="#results" onClick={handleClick}>
+                            {t('Header.nav6')}
+                        </a>
+                    </li>
+                    <li>
                         <a href="#publications" onClick={handleClick}>
                             {t('Header.nav3')}
                         </a>
@@ -77,6 +82,9 @@ export default function Navbar() {
                 </li>
                 <li>
                     <a href="#project">{t('Header.nav2')}</a>
+                </li>
+                <li>
+                    <a href="#results">{t('Header.nav6')}</a>
                 </li>
                 <li>
                     <a href="#publications">{t('Header.nav3')}</a>

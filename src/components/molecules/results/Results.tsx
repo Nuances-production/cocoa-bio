@@ -55,7 +55,7 @@ export default function Results() {
     ]
 
     return (
-        <article className={styles.results} id="publications">
+        <article className={styles.results} id="results">
             <Title label={t('title')} />
             <div className={styles.textContainer}>
                 {introData.map((text, index) => (
@@ -84,7 +84,7 @@ export default function Results() {
                     </p>
                 ))}
             </div>
-            <section>
+            <section id="publications">
                 <h3 className={styles.title}>{t('secondTitle')}</h3>
                 <ol className={styles.linkList} type="1">
                     {linkData.map((link, index) => (

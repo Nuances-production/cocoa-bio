@@ -27,20 +27,23 @@
         }
     }
     .title {
+        margin-bottom: 0;
         @media screen and (min-width: $desktop) {
             padding: 2rem;
+            margin-top: 100px;
         }
     }
 
     .desc {
-        padding: 2rem;
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.4px;
         font-style: italic;
+        padding: 1rem 2rem;
         @media screen and (min-width: $desktop) {
             font-size: 16px;
             margin-bottom: 30px;
+            padding: 0 2rem;
         }
     }
 }

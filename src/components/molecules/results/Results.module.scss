@@ -10,12 +10,20 @@
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.4px;
-        padding: 2rem;
+        padding: 0 2rem;
         @media screen and (min-width: $desktop) {
             display: flex;
             gap: 2rem;
             font-size: 16px;
             padding: 0 4rem;
+        }
+    }
+
+    .mainTitle {
+        margin-top: 70px;
+        margin-bottom: 0;
+        @media screen and (min-width: $desktop) {
+            margin: 50px 0;
         }
     }
 

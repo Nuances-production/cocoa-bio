@@ -56,7 +56,7 @@ export default function Results() {
 
     return (
         <article className={styles.results} id="results">
-            <Title label={t('title')} />
+            <Title label={t('title')} className={styles.mainTitle} />
             <div className={styles.textContainer}>
                 {introData.map((text, index) => (
                     <p key={index} className={styles.text}>

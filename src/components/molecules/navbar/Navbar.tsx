@@ -45,6 +45,11 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li>
+                        <a href="#goals" onClick={handleClick}>
+                            {t('Header.nav7')}
+                        </a>
+                    </li>
+                    <li>
                         <a href="#results" onClick={handleClick}>
                             {t('Header.nav6')}
                         </a>
@@ -57,6 +62,11 @@ export default function Navbar() {
                     <li>
                         <a href="#partners" onClick={handleClick}>
                             {t('Header.nav4')}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#perspectives" onClick={handleClick}>
+                            {t('Header.nav8')}
                         </a>
                     </li>
                     <li>
@@ -84,6 +94,9 @@ export default function Navbar() {
                     <a href="#project">{t('Header.nav2')}</a>
                 </li>
                 <li>
+                    <a href="#goals">{t('Header.nav7')}</a>
+                </li>
+                <li>
                     <a href="#results">{t('Header.nav6')}</a>
                 </li>
                 <li>
@@ -91,6 +104,9 @@ export default function Navbar() {
                 </li>
                 <li>
                     <a href="#partners">{t('Header.nav4')}</a>
+                </li>
+                <li>
+                    <a href="#perspectives">{t('Header.nav8')}</a>
                 </li>
                 <li>
                     <a href="#contact">{t('Header.nav5')}</a>

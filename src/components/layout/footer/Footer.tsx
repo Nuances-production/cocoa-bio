@@ -62,18 +62,33 @@ export default function Footer() {
                 </div>
             </section>
             <section className={styles.secondPartContainer}>
-                <Image
-                    src={
-                        isMobile ? '/footer_mobile.svg' : '/footer_desktop.svg'
-                    }
-                    width={500}
-                    height={500}
-                    alt=""
-                    className={styles.banniere}
-                />
-                <div className={styles.credits}>
-                    © {currentYear} Nuance Productions
-                </div>
+                {isMobile ? (
+                    <>
+                        <Image
+                            src="/footer_mobile.svg"
+                            width={500}
+                            height={500}
+                            alt=""
+                            className={styles.banniere}
+                        />
+                        <div className={styles.credits}>
+                            © {currentYear} Nuance Productions
+                        </div>
+                    </>
+                ) : (
+                    <section className={styles.containerCredits}>
+                        <p className={styles.credits2}>
+                            {currentYear} LABCOM Optimaa / nuance productions
+                        </p>
+                        <Image
+                            src="/footer_desktop.svg"
+                            alt="credits"
+                            width={400}
+                            height={50}
+                            className={styles.imgCredits}
+                        />
+                    </section>
+                )}
             </section>
         </footer>
     )

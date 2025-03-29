@@ -34,7 +34,7 @@ export default function Goals() {
     const goalsData = [t('goals1'), t('goals2'), t('goals3'), t('goals4')]
 
     return (
-        <article className={styles.goals} id='goals'>
+        <article className={styles.goals} id="goals">
             <Title
                 label={t('title')}
                 text={t('text')}

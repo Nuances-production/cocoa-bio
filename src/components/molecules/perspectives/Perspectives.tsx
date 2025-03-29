@@ -7,7 +7,7 @@ export default function Perspectives() {
     const t = useTranslations('Perspectives')
 
     return (
-        <article className={styles.perspectives} id='perspectives'>
+        <article className={styles.perspectives} id="perspectives">
             <Title label={t('title')} />
             <div className={styles.container}>
                 <h4 className={styles.bold}>{t('intro')}</h4>

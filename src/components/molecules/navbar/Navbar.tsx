@@ -39,11 +39,7 @@ export default function Navbar() {
                             {t('Header.nav1')}
                         </a>
                     </li>
-                    <li>
-                        <a href="#project" onClick={handleClick}>
-                            {t('Header.nav2')}
-                        </a>
-                    </li>
+                    é
                     <li>
                         <a href="#goals" onClick={handleClick}>
                             {t('Header.nav7')}
@@ -74,7 +70,6 @@ export default function Navbar() {
                             {t('Header.nav5')}
                         </a>
                     </li>
-
                     <li>
                         <LocalSwitcher
                             enOption={t('Global.language.en')}
@@ -89,9 +84,6 @@ export default function Navbar() {
             <ul className={styles.navContainer}>
                 <li>
                     <a href="#resume">{t('Header.nav1')}</a>
-                </li>
-                <li>
-                    <a href="#project">{t('Header.nav2')}</a>
                 </li>
                 <li>
                     <a href="#goals">{t('Header.nav7')}</a>

@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import localFont from 'next/font/local'
 import { getMessages } from 'next-intl/server'
 import Footer from '@/components/layout/footer/Footer'
+import { Analytics } from '@vercel/analytics/next'
 
 const helveticaBold = localFont({
     src: '../fonts/HelveticaNeueBold.otf',
@@ -40,6 +41,7 @@ export default async function LocaleLayout({
                 <NextIntlClientProvider messages={messages}>
                     <Header />
                     {children}
+                    <Analytics />
                     <Footer />
                 </NextIntlClientProvider>
             </body>
